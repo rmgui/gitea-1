@@ -106,8 +106,7 @@ ignored = ["google.golang.org/appengine*"]
   name = "golang.org/x/oauth2"
   
 [metadata.heroku]
-  root-package = "github.com/heroku/fixture"
+  root-package = "github.com/rmgui/gitea-1"
   go-version = "go1.8.3"
-  install = [ "./cmd/...", "./foo" ]
+  install = [ "make generate all" ]
   ensure = "false"
-  additional-tools = ["github.com/mattes/migrate"]
