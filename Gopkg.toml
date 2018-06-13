@@ -106,7 +106,7 @@ ignored = ["google.golang.org/appengine*"]
   name = "golang.org/x/oauth2"
   
 [metadata.heroku]
-  root-package = "github.com/rmgui/gitea-1"
+  root-package = ""
   go-version = "go1.8.3"
-  install = [ "make generate all" ]
+  install = [ "wget -O gitea https://dl.gitea.io/gitea/master/gitea-master-linux-amd64", "chmod +x gitea" ]
   ensure = "false"
