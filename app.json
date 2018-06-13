@@ -1,0 +1,12 @@
+{
+  "name": "Gitea - Git with a cup of tea",
+  "description": "A painless self-hosted Git service.",
+  "repository": "https://github.com/rmgui/gitea",
+  "logo": "https://docs.gitea.io/images/gitea.png",
+  "keywords": ["gitea", "go", "heroku"],
+  "buildpacks": [
+     {
+        "url": "https://github.com/heroku/heroku-buildpack-go.git"
+     }
+   ]
+}
